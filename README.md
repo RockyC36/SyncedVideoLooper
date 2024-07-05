@@ -25,7 +25,8 @@ This is an instruction guide for a "no-frills" video looper that you can remotel
 - On **Debian** or a Debian derivative, you can use the four steps listed below under the heading **3. Install Syncthing on the Pi**, or install via [Homebrew](https://brew.sh)
 - On other distros, look for Syncthing in your distro’s package manager, or install via [Homebrew](https://brew.sh)
 - Syncthing is also available as a [Flatpak](https://flathub.org/apps/search?q=syncthing) bundled with a tray icon app, and there are other tray icon apps for Linux as well, but the tray icon really isn’t necessary.
-
+### Homebrew
+If you install Syncthing via Homebrew, be sure to enable the Syncthing service as described in the notes.
 ### Local Configuration
 Once Syncthing is installed, use the [getting started guide](https://docs.syncthing.net/intro/getting-started.html) for a detailed walk-through on how to set it up and share a folder. Your local computer is now ready to sync. Next, we set up the Raspberry Pi.
 

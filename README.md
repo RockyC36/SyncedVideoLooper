@@ -1,3 +1,4 @@
+![synced video looper](https://github.com/RockyC36/SyncedVideoLooper/assets/72821598/53dbb833-0118-48ff-80c6-cdf1e1544651)
 # SyncedVideoLooper
 A simple video looper that you can remotely update across the Internet using Syncthing.
 ***

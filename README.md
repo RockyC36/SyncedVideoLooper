@@ -45,9 +45,9 @@ Once Syncthing is installed, use the [getting started guide](https://docs.syncth
    sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
    ```
 2. Add the "stable" channel to your APT sources. Yes, that whole thing is one command:
- ```
-echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
-```
+   ```
+   echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
+   ```
 3. Update and install Syncthing: `sudo apt update` and `sudo apt install syncthing`
 4. Configure the Syncthing service, replacing "username" with the name of the Pi user that you set up in Step 2: `sudo systemctl enable syncthing@username.service` and then `sudo systemctl start syncthing@username.service`
 
